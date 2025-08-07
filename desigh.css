@@ -1,0 +1,50 @@
+ html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-image: url('https://images.unsplash.com/photo-1581091870622-1e7e8f7c8f3e?auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      color: #fff;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 60px 0;
+    }
+
+    section {
+      padding: 60px 0;
+    }
+
+    footer {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 20px 0;
+      text-align: center;
+      color: #ccc;
+    }
+
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .navbar-nav .nav-link {
+      color: #fff !important;
+    }
+
+    .navbar-brand {
+      color: #f8c471 !important;
+      font-weight: bold;
+    }
+
+    h1, h2 {
+      color: #f8f9fa;
+    }
+
+    .list-group-item {
+      background-color: rgba(255, 255, 255, 0.1);
+      border: none;
+      color: #fff;
+    }
